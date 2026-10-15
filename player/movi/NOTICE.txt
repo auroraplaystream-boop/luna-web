@@ -1,0 +1,5 @@
+Movi Player 0.4.1, unmodified browser bundle.
+Copyright Ujjawal Kashyap. Apache-2.0 for the player; bundled FFmpeg LGPL-2.1-or-later and dav1d BSD-2-Clause, as detailed in LICENSE.txt.
+Source and build instructions: https://github.com/MrUjjwalG/movi-player/tree/eaaa3088aba65454176a180ece2a2ef2af513fa3
+FFmpeg n8.1.2 source: https://github.com/FFmpeg/FFmpeg/tree/n8.1.2
+No TorBox credentials or media are bundled in this distribution.
