@@ -1,3 +1,5 @@
+import {prepareVad,detectVoice} from './vad/detect.mjs';
+import {voiceAlignment} from './vad/alignment.mjs';
 import {pipeline,env} from './speech/transformers.min.js';
 env.allowLocalModels=false;
 env.backends.onnx.wasm.numThreads=1;
@@ -6,12 +8,15 @@ let recognizer,embedder;
 const status=text=>postMessage({type:'status',text});
 self.onmessage=async({data})=>{try{
  if(data.type==='prepare'){
- status('Preparando reconhecimento de voz no aparelho. O primeiro uso baixa o modelo…');
- recognizer??=await pipeline('automatic-speech-recognition','Xenova/whisper-tiny',{dtype:'q8',device:'wasm'});
+ status('Preparando a comparação dos intervalos de fala…');
+ await prepareVad();
  postMessage({type:'ready'});return;
  }
  if(data.type!=='analyze')return;
- status('Reconhecendo as falas do trecho…');
+ status('Comparando os momentos de fala e silêncio com a legenda…');
+ const probabilities=await detectVoice(data.audio);const alignment=voiceAlignment(probabilities,data.start,data.cues);if(alignment){postMessage({type:'result',alignment});return}
+ status('Conferindo o conteúdo das falas. No primeiro uso, baixando o modelo de voz…');
+ recognizer??=await pipeline('automatic-speech-recognition','Xenova/whisper-tiny',{dtype:'q8',device:'wasm'}); 
  const result=await recognizer(data.audio,{return_timestamps:'word',task:'transcribe',chunk_length_s:30,stride_length_s:5});
  const words=(result.chunks||[]).filter(c=>Number.isFinite(c.timestamp?.[0]));
  const speech=[];
