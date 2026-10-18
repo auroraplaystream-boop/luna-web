@@ -1,0 +1,212 @@
+{
+  "providers": [
+    "https://www.tvmaze.com/api",
+    "https://docs.anilist.co"
+  ],
+  "shows": [
+    {
+      "category": "Breaking Bad",
+      "show": "Breaking Bad",
+      "id": 169,
+      "url": "https://www.tvmaze.com/shows/169/breaking-bad"
+    },
+    {
+      "category": "Stranger Things",
+      "show": "Stranger Things",
+      "id": 2993,
+      "url": "https://www.tvmaze.com/shows/2993/stranger-things"
+    },
+    {
+      "category": "Wednesday",
+      "show": "Wednesday",
+      "id": 53647,
+      "url": "https://www.tvmaze.com/shows/53647/wednesday"
+    },
+    {
+      "category": "Game of Thrones",
+      "show": "Game of Thrones",
+      "id": 82,
+      "url": "https://www.tvmaze.com/shows/82/game-of-thrones"
+    },
+    {
+      "category": "One Piece (live-action)",
+      "show": "One Piece",
+      "id": 46065,
+      "url": "https://www.tvmaze.com/shows/46065/one-piece"
+    },
+    {
+      "category": "Supernatural",
+      "show": "Supernatural",
+      "id": 19,
+      "url": "https://www.tvmaze.com/shows/19/supernatural"
+    },
+    {
+      "category": "The Boys",
+      "show": "The Boys",
+      "id": 15299,
+      "url": "https://www.tvmaze.com/shows/15299/the-boys"
+    },
+    {
+      "category": "The Last of Us",
+      "show": "The Last of Us",
+      "id": 46562,
+      "url": "https://www.tvmaze.com/shows/46562/the-last-of-us"
+    },
+    {
+      "category": "The Vampire Diaries",
+      "show": "The Vampire Diaries",
+      "id": 63,
+      "url": "https://www.tvmaze.com/shows/63/the-vampire-diaries"
+    },
+    {
+      "category": "Merlin",
+      "show": "Merlin",
+      "id": 789,
+      "url": "https://www.tvmaze.com/shows/789/merlin"
+    },
+    {
+      "category": "The Walking Dead",
+      "show": "The Walking Dead",
+      "id": 73,
+      "url": "https://www.tvmaze.com/shows/73/the-walking-dead"
+    },
+    {
+      "category": "House of the Dragon",
+      "show": "House of the Dragon",
+      "id": 44778,
+      "url": "https://www.tvmaze.com/shows/44778/house-of-the-dragon"
+    },
+    {
+      "category": "Taxi Driver",
+      "show": "Taxi Driver",
+      "id": 52770,
+      "url": "https://www.tvmaze.com/shows/52770/taxi-driver"
+    },
+    {
+      "category": "Rick and Morty",
+      "show": "Rick and Morty",
+      "id": 216,
+      "url": "https://www.tvmaze.com/shows/216/rick-and-morty"
+    },
+    {
+      "category": "Pousando no Amor",
+      "show": "Crash Landing on You",
+      "id": 42756,
+      "url": "https://www.tvmaze.com/shows/42756/crash-landing-on-you"
+    },
+    {
+      "category": "All of Us Are Dead",
+      "show": "All of Us Are Dead",
+      "id": 47199,
+      "url": "https://www.tvmaze.com/shows/47199/all-of-us-are-dead"
+    },
+    {
+      "category": "Round 6",
+      "show": "Squid Game",
+      "id": 43687,
+      "url": "https://www.tvmaze.com/shows/43687/squid-game"
+    },
+    {
+      "category": "Pretendente Surpresa",
+      "show": "Business Proposal",
+      "id": 59755,
+      "url": "https://www.tvmaze.com/shows/59755/business-proposal"
+    },
+    {
+      "category": "Alquimia das Almas",
+      "show": "Alchemy of Souls",
+      "id": 62248,
+      "url": "https://www.tvmaze.com/shows/62248/alchemy-of-souls"
+    },
+    {
+      "category": "Beleza Verdadeira",
+      "show": "True Beauty",
+      "id": 78219,
+      "url": "https://www.tvmaze.com/shows/78219/true-beauty"
+    },
+    {
+      "category": "Uma Advogada Extraordinária",
+      "show": "Extraordinary Attorney Woo",
+      "id": 62357,
+      "url": "https://www.tvmaze.com/shows/62357/extraordinary-attorney-woo"
+    },
+    {
+      "category": "Naruto",
+      "title": "NARUTO",
+      "id": 20,
+      "url": "https://anilist.co/anime/20"
+    },
+    {
+      "category": "One Piece",
+      "title": "ONE PIECE",
+      "id": 21,
+      "url": "https://anilist.co/anime/21"
+    },
+    {
+      "category": "Dragon Ball Z",
+      "title": "Dragon Ball Z",
+      "id": 813,
+      "url": "https://anilist.co/anime/813"
+    },
+    {
+      "category": "Attack on Titan",
+      "title": "Shingeki no Kyojin",
+      "id": 16498,
+      "url": "https://anilist.co/anime/16498"
+    },
+    {
+      "category": "Boku no Hero Academia",
+      "title": "Boku no Hero Academia",
+      "id": 21459,
+      "url": "https://anilist.co/anime/21459"
+    },
+    {
+      "category": "Fairy Tail",
+      "title": "FAIRY TAIL",
+      "id": 6702,
+      "url": "https://anilist.co/anime/6702"
+    },
+    {
+      "category": "Jujutsu Kaisen",
+      "title": "Jujutsu Kaisen",
+      "id": 113415,
+      "url": "https://anilist.co/anime/113415"
+    },
+    {
+      "category": "Demon Slayer",
+      "title": "Kimetsu no Yaiba",
+      "id": 101922,
+      "url": "https://anilist.co/anime/101922"
+    },
+    {
+      "category": "Death Note",
+      "title": "DEATH NOTE",
+      "id": 1535,
+      "url": "https://anilist.co/anime/1535"
+    },
+    {
+      "category": "Spy x Family",
+      "title": "SPY×FAMILY",
+      "id": 140960,
+      "url": "https://anilist.co/anime/140960"
+    },
+    {
+      "category": "Chainsaw Man",
+      "title": "Chainsaw Man",
+      "id": 127230,
+      "url": "https://anilist.co/anime/127230"
+    },
+    {
+      "category": "Solo Leveling",
+      "title": "Ore dake Level Up na Ken",
+      "id": 151807,
+      "url": "https://anilist.co/anime/151807"
+    },
+    {
+      "category": "The Eminence in Shadow",
+      "title": "Kage no Jitsuryokusha ni Naritakute!",
+      "id": 130298,
+      "url": "https://anilist.co/anime/130298"
+    }
+  ]
+}
