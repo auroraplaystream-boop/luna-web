@@ -1,3 +1,5 @@
+importScripts('./p2p/sw.min.js');
+
 self.addEventListener('push', event => {
     let payload = {};
     try {
